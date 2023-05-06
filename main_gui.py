@@ -73,14 +73,5 @@ lbl.pack()
 #     "rating": yt.rating
 # }
 #
-# def download_youtube_mp4():
-#     '''
-#     Function: Downloads a mp4 file from a given YouTube URL
-#     '''
-#     print('[-] Downloading...')
-#     video_file = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc().first()
-#     video_file.download()
-#     print(colored('[+] Download completed successfully!', 'green'))
-
 
 gui.mainloop()
