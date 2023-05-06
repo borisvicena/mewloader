@@ -15,6 +15,10 @@ gui['bg'] = '#EFEFEF'
 main_text = tkinter.Label(gui, text="Mewloader", bg='#EFEFEF', font=('Arial', 40))
 main_text.pack(fill='both', pady=20)
 
+# Label Creation
+label = tkinter.Label(gui, text="YOUTUBE DOWNLOADER")
+label.pack(pady=10)
+
 # TextBox Creation
 input_text = Entry(gui, width=50)
 input_text.focus_set()
