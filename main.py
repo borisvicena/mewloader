@@ -13,7 +13,7 @@ display_banner.display_mewloader_banner()
 while True:
     try:
         get_link = input("[*] Enter a valid youtube link: ")
-        yt = YouTube(get_link)
+        yt = YouTube(get_link, use_oauth=True, allow_oauth_cache=True)
         break
     except pytube.exceptions.RegexMatchError:
         print("[!] Please enter a valid youtube link")
