@@ -1,13 +1,12 @@
 # YouTube Downloader App
 import os.path
-
 import pytube.exceptions
 from pytube import YouTube
 from termcolor import colored
-import display_banner
+from banner.display_banner import display_mewloader_banner
 
-
-display_banner.display_mewloader_banner()
+# Displaying Mewloader banner in terminal
+display_mewloader_banner()
 
 
 while True:
