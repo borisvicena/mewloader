@@ -1,12 +1,17 @@
 # Mewloader 😼
-A python script for downloading youtube video/audio from Youtube.
+A simple python script for downloading video and audio from Youtube.
 
-## Containing 2 scripts
-> - main.py
-> - main_gui.py
+## Usage
 
-### main.py
-Script for running the downloader in terminal.
+[!Screenshot](/static/mewloader_screenshot.png)
 
-### main_gui.py
-Script for running the downloader in GUI.
+## Contributing
+
+Pull requests are welcome.
+
+> [!NOTE]
+> For major changes, please open an issue first or contact me to discuss what would you like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
