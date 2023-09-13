@@ -7,12 +7,12 @@ A simple python script for downloading video and audio from Youtube.
 ## Installation
 
 First step is to clone the repository into your local directory.
-```zsh
+```bash
 git clone <url_of_this_repo>
 ```
 
 After installing the repository you should be able to run the program throught your terminal window with the following command.
-```console
+```bash
 python main.py
 ```
 
