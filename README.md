@@ -18,7 +18,7 @@ python main.py
 
 ## Usage
 
-[!Screenshot](/static/mewloader_screenshot.png)
+![Screenshot](/static/mewloader_screenshot.png)
 
 ## Contributing
 
