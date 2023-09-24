@@ -1,28 +1,17 @@
 import os.path
-from tkinter import *
-from tkinter import ttk
-import tkinter
 import pytube.exceptions
 from pytube import YouTube
+import customtkinter
 from termcolor import colored
 
 
-gui = tkinter.Tk(className='\tMewloader - YouTube Link Downloader')
+customtkinter.set_appearance_mode('dark')
+customtkinter.set_default_color_theme('blue')
+
+gui = customtkinter.CTk()
+gui.title("Mewloader - YouTube Link Downloader")
 gui.geometry('500x720')
-gui['bg'] = '#EFEFEF'
 
-# MainText Creation - Mewloader
-main_text = tkinter.Label(gui, text="Mewloader", bg='#EFEFEF', font=('Arial', 40, "bold"))
-main_text.pack(fill='both', pady=20)
-
-# Label Creation
-label = tkinter.Label(gui, text="YOUTUBE DOWNLOADER")
-label.pack(pady=10)
-
-# TextBox Creation
-input_text = Entry(gui, width=50)
-input_text.focus_set()
-input_text.pack()
 
 def download_audio():
     global input_text
@@ -76,21 +65,33 @@ def get_link_info():
     lbl.configure(text="Title: " + yt.title)
 
 
-    
-# Button for getting info from the given Youtube URL
-get_info = tkinter.Button(gui, text='Get Info!', command=get_link_info)
-get_info.pack()
-
-# Button for downloading audio MP3
-download_mp3 = tkinter.Button(gui, text='Download MP3', command=download_audio)
-download_mp3.pack()
-
-# Button for downloading video MP4
-download_mp4 = tkinter.Button(gui, text='Download MP4', command=download_video)
-download_mp4.pack()
+# MainText Creation - Mewloader
+main_text = customtkinter.CTkLabel(master=gui, text="Mewloader", font=('Arial', 40, "bold"))
+main_text.pack(fill='both', pady=20)
 
 # Label Creation
-lbl = tkinter.Label(gui, text="", font=("Arial", 20))
+label = customtkinter.CTkLabel(master=gui, text="YOUTUBE DOWNLOADER")
+label.pack(pady=10)
+
+# TextBox Creation
+input_text = customtkinter.CTkEntry(master=gui, width=250)
+input_text.focus_set()
+input_text.pack(pady=10)
+
+# Button for getting info from the given Youtube URL
+get_info = customtkinter.CTkButton(master=gui, text='Get Info!', command=get_link_info)
+get_info.pack(pady=10)
+
+# Button for downloading audio MP3
+download_mp3 = customtkinter.CTkButton(gui, text='Download MP3')
+download_mp3.pack(pady=10)
+
+# Button for downloading video MP4
+download_mp4 = customtkinter.CTkButton(gui, text='Download MP4')
+download_mp4.pack(pady=10)
+
+# Label Creation
+lbl = customtkinter.CTkLabel(gui, text="", font=("Arial", 20))
 lbl.pack()
 
 gui.mainloop()
