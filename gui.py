@@ -31,18 +31,6 @@ class App(ctk.CTk):
         self.download = ctk.CTkButton(self, text='Download', command=self.startDownload)
         self.download.grid(row=2, column=0, padx=10, pady=(10, 0))
 
-        # # Link input
-        # url = tk.StringVar()
-        # link = ctk.CTkEntry(self, width=350, height=40, textvariable=url)
-        # link.pack()
-
-        # Finished downloading
-        # finishLabel = ctk.CTkLabel(self, text='')
-        # finishLabel.pack()
-
-        # # Download Button
-        # download = ctk.CTkButton(self, text='Download', command=self.button_callback)
-        # download.pack(padx=10, pady=10)
     
     def button_callback(self):
         print('button pressed')
@@ -52,10 +40,14 @@ class App(ctk.CTk):
             yt_link = self.link.get()
             yt = YouTube(yt_link, use_oauth=True, allow_oauth_cache=True)
             video = yt.streams.filter(progressive=True, file_extension="mp4").order_by("resolution").desc().first()
-            video.download()
-            print("Downloaded!")
-        except:
-            print("Error downloading")
+
+            if video:
+                video.download()
+                print("Downloaded!")
+            else:
+                print("No suitable video stream found!")
+        except Exception as e:
+            print("Error downloading: ", str(e))
 
 
 # def download_audio():
