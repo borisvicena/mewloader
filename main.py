@@ -70,7 +70,7 @@ while True:
                 download_youtube_mp4()
         break
     except ValueError or user_choice != 0 or 1:
-        print("[!] Enter a number")
+        print("[!] Enter a valid number")
         continue
 
 
