@@ -1,14 +1,19 @@
-# Mewloader 😼
-A simple python script for downloading video and audio from Youtube.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Technology used
-> Python
+# Mewloader 😼
+
+Mewloader allows users to effortlessly download both video(MP4) and audio(MP3) content from YouTube. With a simple and intuitive interface, this tool provides an easy way to save you favorite videos and music for offline access.
 
 ## Installation
 
-First step is to clone the repository into your local directory.
+1. clone the repository into your local directory.
 ```bash
-git clone <url_of_this_repo>
+git clone https://github.com/borisvicena/mewloader
 ```
 
 After installing the repository you should be able to run the program throught your terminal window with the following command.
@@ -17,7 +22,8 @@ python main.py
 ```
 
 ## Usage
-
+1. After running Mewloader, user is first prompted to enter a valid YouTube link.
+2. 
 ![Screenshot](/static/mewloader_screenshot.png)
 
 ## Contributing
@@ -29,4 +35,4 @@ Pull requests are welcome.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Distributed under the MIT License. See [LICENSE](https://choosealicense.com/licenses/mit/) for more information.
