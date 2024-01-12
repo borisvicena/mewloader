@@ -40,6 +40,12 @@ Pull requests are welcome.
 
 Distributed under the MIT License. See [LICENSE](https://choosealicense.com/licenses/mit/) for more information.
 
+## Contact
+
+Boris Vicena - [@borisvicena](https://linkedin.com/in/borisvicena) - boris.vicena@gmail.com
+
+Project Link: [https://github.com/borisvicena/mewloader](https://github.com/borisvicena/mewloader)
+
 <!-- MARKDOWN LINKS -->
 [contributors-shield]: https://img.shields.io/github/contributors/borisvicena/mewloader.svg?style=for-the-badge
 [contributors-url]: https://github.com/borisvicena/mewloader/graphs/contributors
