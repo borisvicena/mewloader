@@ -104,7 +104,7 @@ Project Link: [https://github.com/borisvicena/mewloader](https://github.com/bori
 [issues-shield]: https://img.shields.io/github/issues/borisvicena/mewloader.svg?style=for-the-badge
 [issues-url]: https://github.com/borisvicena/mewloader/issues
 [license-shield]: https://img.shields.io/github/license/borisvicena/mewloader.svg?style=for-the-badge
-[license-url]: https://github.com/borisvicena/mewloader/blob/master/LICENSE.txt
+[license-url]: https://github.com/borisvicena/mewloader//LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/borisvicena
 [Python]: https://img.shields.io/badge/python-306998?style=for-the-badge&logo=python&logoColor=white
