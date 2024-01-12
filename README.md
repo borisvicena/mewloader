@@ -9,6 +9,9 @@
 
 Mewloader allows users to effortlessly download both video(MP4) and audio(MP3) content from YouTube. With a simple and intuitive interface, this tool provides an easy way to save you favorite videos and music for offline access.
 
+### Build With
+[![Python][Python]][Python-url]
+
 ## Installation
 
 1. clone the repository into your local directory.
@@ -51,3 +54,5 @@ Distributed under the MIT License. See [LICENSE](https://choosealicense.com/lice
 [license-url]: https://github.com/borisvicena/mewloader/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/borisvicena
+[Python]: https://img.shields.io/badge/python-306998?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org
