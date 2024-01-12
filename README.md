@@ -1,9 +1,5 @@
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 # Mewloader 😼
 
@@ -36,3 +32,7 @@ Pull requests are welcome.
 ## License
 
 Distributed under the MIT License. See [LICENSE](https://choosealicense.com/licenses/mit/) for more information.
+
+<!-- MARKDOWN LINKS -->
+[contributors-shield]: https://img.shields.io/github/contributors/borisvicena/mewloader.svg?style=for-the-badge
+[contributors-url]: https://github.com/borisvicena/mewloader/graphs/contributors
