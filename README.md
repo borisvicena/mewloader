@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -91,6 +93,9 @@ Distributed under the MIT License. See [LICENSE](https://choosealicense.com/lice
 Boris Vicena - [@borisvicena](https://linkedin.com/in/borisvicena) - boris.vicena@gmail.com
 
 Project Link: [https://github.com/borisvicena/mewloader](https://github.com/borisvicena/mewloader)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS -->
