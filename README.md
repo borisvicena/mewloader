@@ -1,5 +1,9 @@
 [![Contributors][contributors-shield]][contributors-url]
-
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 # Mewloader 😼
 
@@ -36,3 +40,14 @@ Distributed under the MIT License. See [LICENSE](https://choosealicense.com/lice
 <!-- MARKDOWN LINKS -->
 [contributors-shield]: https://img.shields.io/github/contributors/borisvicena/mewloader.svg?style=for-the-badge
 [contributors-url]: https://github.com/borisvicena/mewloader/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/borisvicena/mewloader.svg?style=for-the-badge
+[forks-url]: https://github.com/borisvicena/mewloader/network/members
+[stars-shield]: https://img.shields.io/github/stars/borisvicena/mewloader.svg?style=for-the-badge
+[stars-url]: https://github.com/borisvicena/mewloader/stargazers
+[issues-shield]: https://img.shields.io/github/issues/borisvicena/mewloader.svg?style=for-the-badge
+[issues-url]: https://github.com/borisvicena/mewloader/issues
+[license-shield]: https://img.shields.io/github/license/borisvicena/mewloader.svg?style=for-the-badge
+[license-url]: https://github.com/borisvicena/mewloader/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
